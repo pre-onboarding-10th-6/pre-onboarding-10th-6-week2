@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/:match*",
-      "destination": "https://api.clinicaltrialskorea.com/:match*"
+      "source": "/api/v1",
+      "destination": "https://api.clinicaltrialskorea.com/api/v1"
     }
   ]
 }
