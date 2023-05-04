@@ -1,7 +1,6 @@
 {
   "routes": [
     {
-      "source": "/api/:match*",
       "src": "/api/:match*",
       "destination": "https://api.clinicaltrialskorea.com/:match*"
     }
