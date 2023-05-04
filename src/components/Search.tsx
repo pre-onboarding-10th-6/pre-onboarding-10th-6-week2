@@ -65,7 +65,7 @@ const Search = () => {
   useEffect(() => {
     setFocusIndex(-1)
   }, [debouncedKeyword])
-
+  console.log('data', suggestions)
   return (
     <SearchLayout>
       <h1>
