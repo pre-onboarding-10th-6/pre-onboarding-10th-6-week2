@@ -1,13 +1,17 @@
 {
   "rewrites": [
     {
-      "source": "/api/v1",
-      "destination": "https://api.clinicaltrialskorea.com/api/v1"
+      "source": "api/v1",
+      "destination": "https://api.clinicaltrialskorea.com/api/v1/"
+    },
+    {
+      "source": "api/:path*",
+      "destination": "https://api.clinicaltrialskorea.com/:path*/"
     }
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
