@@ -1,7 +1,7 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/:match*",
+      "source": "/api/:match*",
       "destination": "https://api.clinicaltrialskorea.com/:match*"
     }
   ],
