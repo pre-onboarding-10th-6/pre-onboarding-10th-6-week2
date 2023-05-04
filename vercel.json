@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/proxy/api/v1/search-conditions/:match*",
+      "destination": "https://api.clinicaltrialskorea.com/api/v1/search-conditions/:match*"
+    }
+  ]
+}
